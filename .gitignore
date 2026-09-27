@@ -1,0 +1,54 @@
+# Python cache / compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Cryptographic keys and sensitive material
+data/keys/
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+
+# Runtime application data
+data/users.json
+data/encrypted/
+data/grades.json
+data/messages.json
+
+# Logs / audit output
+logs/
+*.log
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
